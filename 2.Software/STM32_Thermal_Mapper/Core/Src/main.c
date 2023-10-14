@@ -240,10 +240,7 @@ int main(void)
 										for(int i=0;i<5;i++)		LCD_DrawLine(113+i*20,165,123+i*20,165,WHITE);
 										LCD_ShowString(221,120,"Type-A",WHITE,BLACK,16,1);
 										LCD_ShowPicture(220,140,50,50,gImage_computer_pic);
-										
-										//LCD_ShowPicture(275,183,35,35,gImage_logo_pic);
-										LCD_ShowChinese(219,201,"我敢点煤气罐",WHITE,BLACK,16,1);
-										LCD_ShowString(188,220,"Tell:1529214----",WHITE,BLACK,16,1);
+									
 									
 										//切换挂载的设备
 										f_res = f_mount(NULL,(TCHAR const*)USERPath,1);		//取消挂载

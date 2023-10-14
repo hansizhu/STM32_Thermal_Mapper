@@ -49,7 +49,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>Naxida_Eyes\</OutputDirectory>
-          <OutputName>Naxida_Eyes</OutputName>
+          <OutputName>STM32_Thermal_Mapper</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>

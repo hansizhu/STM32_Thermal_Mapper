@@ -1,6 +1,0 @@
---cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"
--I.\RTE\_STM32_Thermal_Mapper
--I"E:\STM32 RTOS\KEilMDK\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include"
--I"E:\STM32 RTOS\KEilMDK\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"
---pd "__UVISION_VERSION SETA 537" --pd "_RTE_ SETA 1" --pd "STM32F446xx SETA 1" --pd "_RTE_ SETA 1"
---list startup_stm32f446xx.lst --xref -o naxida_eyes\startup_stm32f446xx.o --depend naxida_eyes\startup_stm32f446xx.d "startup_stm32f446xx.s"

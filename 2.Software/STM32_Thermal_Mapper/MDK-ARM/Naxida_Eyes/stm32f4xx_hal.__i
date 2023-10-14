@@ -1,6 +1,0 @@
---c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\User\ZFY_LIBRARY -I ..\Core\User\LCD -I ..\Core\User\W25QXX -I ..\Core\User\VL53L0X\app -I ..\Core\User\VL53L0X\core\inc -I ..\Core\User\VL53L0X\platform\inc -I ..\Core\User\MLX90640\headers
--I.\RTE\_STM32_Thermal_Mapper
--I"E:\STM32 RTOS\KEilMDK\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include"
--I"E:\STM32 RTOS\KEilMDK\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"
--D__UVISION_VERSION="537" -D_RTE_ -DSTM32F446xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F446xx
--o naxida_eyes\stm32f4xx_hal.o --omf_browse naxida_eyes\stm32f4xx_hal.crf --depend naxida_eyes\stm32f4xx_hal.d "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c"
